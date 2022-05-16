@@ -29,35 +29,39 @@ public class People {
 		bus.takeBus(this);
 		if(this.job == "직장인") {
 			if(this.price < 1250) {
+				System.out.println("---------------------------");
 				System.out.println("잔액이 부족합니다.");
 				System.out.println(this.name + "님의 잔액 : " + this.price + "원");
 				System.out.println("버스에 탄 사람 수 : " + bus.passangers);
 				System.out.println("버스가 번 수입 : " + bus.price);
-				System.out.println("");
+				System.out.println("---------------------------");
 			}
 			else {
 			payFee(1250);
+			System.out.println("---------------------------");
 			System.out.println("삐빅! 직장인입니다.");
 			System.out.println(this.name + "님의 잔액 : " + this.price + "원");
 			System.out.println("버스가 번 수입 : " + bus.price);
 			System.out.println("버스에 탄 사람 수 : " + bus.passangers);
-			System.out.println("");
+			System.out.println("---------------------------");
 			}
 		}
 		else if(this.job == "학생") {
 			if(this.price < 720) {
+				System.out.println("---------------------------");
 				System.out.println("잔액이 부족합니다.");
 				System.out.println(this.name + "님의 잔액 : " + this.price + "원");
 				System.out.println("버스가 번 수입 : " + bus.price);
 				System.out.println("버스에 탄 사람 수 : " + bus.passangers);
-				System.out.println("");
+				System.out.println("---------------------------");
 			} else {
 				payFee(720);
+				System.out.println("---------------------------");
 				System.out.println("삐빅! 학생입니다.");
 				System.out.println(this.name + "님의 잔액 : " + this.price + "원");
 				System.out.println("버스가 번 수입 : " + bus.price);
 				System.out.println("버스에 탄 사람 수 : " +bus.passangers);
-				System.out.println("");
+				System.out.println("---------------------------");
 			}
 		}
 	}
@@ -67,36 +71,40 @@ public class People {
 		subway.takeSubway(this);
 		if(this.job == "직장인") {
 			if(this.price < 1250) {
+				System.out.println("---------------------------");
 				System.out.println("잔액이 부족합니다.");
 				System.out.println(this.name + "님의 잔액 : " + this.price + "원");
 				System.out.println("지하철이 번 수입 : " + subway.price);
 				System.out.println("지하철에 탄 사람 수 : " + subway.passangers);
-				System.out.println("");
+				System.out.println("---------------------------");
 			}
 			else {
 			payFee(1250);
+			System.out.println("---------------------------");
 			System.out.println("삐빅! 직장인입니다.");
 			System.out.println(this.name + "님의 잔액 : " + this.price + "원");
 			System.out.println("지하철이 번 수입 : " + subway.price);
 			System.out.println("지하철에 탄 사람 수 : " + subway.passangers);
-			System.out.println("");
+			System.out.println("---------------------------");
 			}
 		}
 		else if(this.job == "학생") {
 			if(this.price < 720) {
+				System.out.println("---------------------------");
 				System.out.println("잔액이 부족합니다.");
 				System.out.println(this.name + "님의 잔액 : " + this.price + "원");
 				System.out.println("지하철이 번 수입 : " + subway.price);
 				System.out.println("지하철에 탄 사람 수 : " + subway.passangers);
-				System.out.println("");
+				System.out.println("---------------------------");
 			} 
 			else {
 				payFee(720);
+				System.out.println("---------------------------");
 				System.out.println("삐빅! 학생입니다.");
 				System.out.println(this.name + "님의 잔액 : " + this.price + "원");
 				System.out.println("지하철이 번 수입 : " + subway.price);
 				System.out.println("지하철에 탄 사람 수 : " + subway.passangers);
-				System.out.println("");
+				System.out.println("---------------------------");
 			}
 		}
 	}
