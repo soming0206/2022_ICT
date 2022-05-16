@@ -12,7 +12,5 @@ public class main {
 		peopleNa.takeSubway();
 		peoplePark.takeBus();
 		peopleLee.takeSubway();
-		
-
 	}
 }
